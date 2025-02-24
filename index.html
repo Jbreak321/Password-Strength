@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="password.css">
     <title>Password Strength Tester</title>
+    <link href="https://cdn.remixicon.com/releases/v1.2.2/remixicon.css" rel="stylesheet">
 </head>
 <body>
 
     <div class="inputContainer">
-        <div class="passwordInput"></div>
+        <div class="passwordInput">
             <div class="title">
                 <h1>PASSWORD</h1>
             </div>
@@ -19,6 +20,14 @@
             </div>
             <div class="submit">
                 <button id="SubmitBtn">SUBMIT</button>
+            </div>
+        </div>
+        <div class="passwordSuggester">
+            <div class="title">
+                <h1>SUGGESTED PASSWORD</h1>
+            </div>
+            <div class="input">
+                <input type="text" readonly required><span><i class="ri-file-copy-line"></i></span>
             </div>
         </div>
     </div>
